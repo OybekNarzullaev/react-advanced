@@ -13,7 +13,7 @@
     "target": "ES5",
 
     // understand react syntax
-    "jsx": "react",
+    "jsx": "react-jsx",
 
     // compiler ts and also js files
     "allowJs": true,
