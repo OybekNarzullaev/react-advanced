@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+
+    // true -> variable type must declared
+    // false -> var type does not exists then default type any
+    "noImplicitAny": true,
+
+    // current es version
+    "module": "ESNext",
+
+    // compiler es version
+    "target": "ES5",
+
+    // understand react syntax
+    "jsx": "react",
+
+    // compiler ts and also js files
+    "allowJs": true,
+    "moduleResolution": "node",
+
+    //
+    "esModuleInterop": true,
+
+    // allow use: import React from "react"; instead of import * as React from "react";
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
